@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--Webpage Title-->
+    <title>Cameron in the IS Program</title>
+
+    <!--Adding an icon to the taskbar-->
+    <link rel="icon" href="img/snowboard.png" />
+
+    <!--Bring in Bootstrap and CSS Files-->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <!--Name and Image of Me doing something I Enjoy-->
+    <h1>Cameron Delgrosso</h1>
+    <img src="img/CamCamSki.jpg" />
+
+    <!--What I hope to accomplish during IS 413-->
+    <p>
+        I hope to become more comfortable with programming in this class.
+        I am excited to learn a more strongly typed language. I feel like I have the basics of programming
+        down, but whenever we get to the more logic heavy aspects I sometimes struggle. So I look forward
+        to getting more practice this semester!
+    </p>
+
+    <!--Top 3 Jobs List-->
+    <p>Top 3 jobs I am most interested in:</p>
+    <ul>
+        <li>1. Business Intelligence Engineer</li>
+        <li>2. Data Scientist</li>
+        <li>3. Product Manager</li>
+    </ul>
+
+    <!--Grade Calculator form that sends info to the js program.-->
+    <h2>Grade Calculator:</h2>
+    <form>
+        <label>Assignments:</label>
+        <input id="assignmentPercent" /><br />
+        <label>Group Project:</label>
+        <input id="groupPercent" /><br />
+        <label>Quizzes:</label>
+        <input id="quizPercent" /><br />
+        <label>Midterm Exam:</label>
+        <input id="midtermPercent" /><br />
+        <label>Final Exam:</label>
+        <input id="finalPercent" /><br />
+        <label>INTEX:</label>
+        <input id="intexPercent" /><br />
+        <input id="btnSend" type="button" value="Calculate Grade" /><br />
+        <label>Student Grade:</label><br />
+
+        <!--JS program returns the letter grade and grade %-->
+        <h3 id="gradeCalc"></h3>
+        <h3 id="letterGrade"></h3>
+    </form>
+
+    <!--Bring in libraries-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/GradeCalculator.js"></script>
+</body>
+</html>

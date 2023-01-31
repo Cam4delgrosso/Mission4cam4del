@@ -1,0 +1,7 @@
+﻿/*Customize the labels using css*/
+label {
+    font-size: 20px;
+    width:150px;
+    font-weight:bold;
+    color:maroon;
+}
